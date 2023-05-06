@@ -1,4 +1,4 @@
-### <p align=right>[`→` Modrinth](https://modrinth.com/mod/edgerunner)</p>
+### <p align=right>[`→` Modrinth](https://modrinth.com/mod/edgerunner-mod)</p>
 
 # Edgerunner
 
