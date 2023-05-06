@@ -1,35 +1,35 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "edgerunner",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Edgerunner",
   "description": "",
   "authors": [
     "KrLite"
   ],
   "contact": {
     "homepage": "https://github.com/KrLite",
-    "sources": "https://github.com/KrLite/Example-Mod"
+    "sources": "https://github.com/KrLite/Edgerunner"
   },
 
   "license": "GPL-3.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/edgerunner/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.krlite.modid.ExampleMod"
+      "net.krlite.edgerunner.Edgerunner"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "edgerunner.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.19",
     "fabric-api": "*",
-    "minecraft": "~1.19.4"
+    "minecraft": ">=23w18a"
   },
   "suggests": {
   }
