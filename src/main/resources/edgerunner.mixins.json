@@ -4,10 +4,11 @@
   "package": "net.krlite.edgerunner.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+	"EntityMixin"
   ],
   "client": [
   ],
   "injectors": {
-    "defaultRequire": 0
+	"defaultRequire": 0
   }
 }
