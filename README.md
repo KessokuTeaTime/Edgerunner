@@ -32,4 +32,4 @@ And to **disable** it, run:
 
 ## License
 
-This repository is available under the **[GNU Public License.](LICENSE)**
+**Edgerunner** is available under the **[GNU Public License.](LICENSE)**
