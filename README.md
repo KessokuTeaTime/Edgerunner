@@ -32,4 +32,4 @@ And to **disable** it, run:
 
 ## License
 
-**Edgerunner** is available under the **[GNU Public License.](LICENSE)**
+**Edgerunner** is licensed under the **[GNU General Public License v3.](LICENSE)**
