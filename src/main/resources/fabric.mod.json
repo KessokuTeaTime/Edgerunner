@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Edgerunner",
-  "description": "",
+  "description": "Bring the block-edge features back! (MC-1133)",
   "authors": [
     "KrLite"
   ],
