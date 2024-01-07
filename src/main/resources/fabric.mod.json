@@ -9,8 +9,9 @@
     "KrLite"
   ],
   "contact": {
-    "homepage": "https://github.com/KrLite",
-    "sources": "https://github.com/KrLite/Mod.Edgerunner"
+    "homepage": "https://modrinth.com/mod/edgerunner-feature-fix",
+    "sources": "https://github.com/KrLite/Mod.Edgerunner",
+    "issues": "https://github.com/KrLite/Mod.Edgerunner/issues"
   },
 
   "license": "GPL-3.0",
