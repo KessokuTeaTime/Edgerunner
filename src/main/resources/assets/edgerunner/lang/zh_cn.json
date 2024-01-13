@@ -1,4 +1,7 @@
 {
-  "category.edgerunner.features"	: "边缘行者特性",
+  "modmenu.nameTranslation."       : "边缘行者",
+  "modmenu.descriptionTranslation.": "将方块边缘行动特性带回游戏！（MC-1133）",
+
+  "category.edgerunner.features"	: "方块边缘行动特性",
   "gamerule.edgerunner"				: "成为边缘行者"
 }
