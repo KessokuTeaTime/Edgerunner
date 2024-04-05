@@ -1,7 +1,0 @@
-{
-  "modmenu.nameTranslation.edgerunner"       : "エッジランナー",
-  "modmenu.descriptionTranslation.edgerunner": "ブロックエッジ行動特性を持ち帰る！（MC-1133）",
-
-  "category.edgerunner.features": "ブロックエッジ行動特性",
-  "gamerule.edgerunner"			: "エッジランナーである"
-}
