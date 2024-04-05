@@ -4,7 +4,7 @@
   "package": "net.krlite.edgerunner.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-	"EntityMixin"
+	  "band.kessokuteatime.edgerunner.mixin.EntityMixin"
   ],
   "client": [
   ],

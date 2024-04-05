@@ -1,6 +1,6 @@
-package net.krlite.edgerunner.mixin;
+package band.kessokuteatime.edgerunner.mixin;
 
-import net.krlite.edgerunner.Edgerunner;
+import band.kessokuteatime.edgerunner.Edgerunner;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Box;

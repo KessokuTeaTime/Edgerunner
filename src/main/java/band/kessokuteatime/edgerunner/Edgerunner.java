@@ -1,4 +1,4 @@
-package net.krlite.edgerunner;
+package band.kessokuteatime.edgerunner;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.gamerule.v1.CustomGameRuleCategory;

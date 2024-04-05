@@ -3,15 +3,16 @@
   "id": "edgerunner",
   "version": "${version}",
 
-  "name": "Edgerunner",
+  "name": "${display.name}",
   "description": "Bring the block-edge features back! (MC-1133)",
   "authors": [
+    "Kessoku Tea Time",
     "KrLite"
   ],
   "contact": {
     "homepage": "https://modrinth.com/mod/edgerunner-feature-fix",
-    "sources": "https://github.com/KrLite/Mod.Edgerunner",
-    "issues": "https://github.com/KrLite/Mod.Edgerunner/issues"
+    "sources": "https://github.com/KessokuTeaTime/Edgerunner",
+    "issues": "https://github.com/KessokuTeaTime/Edgerunner/issues"
   },
 
   "license": "GPL-3.0",
@@ -20,7 +21,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.krlite.edgerunner.Edgerunner"
+      "band.kessokuteatime.edgerunner.Edgerunner"
     ]
   },
   "mixins": [
@@ -28,7 +29,7 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.19",
+    "fabricloader": "*",
     "fabric-api": "*",
     "minecraft": ">=1.20-alpha.23.18.a"
   },
