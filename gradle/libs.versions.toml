@@ -12,8 +12,8 @@ fabric-loom = "1.6-SNAPSHOT"
 modpublisher = "2.1.0"
 
 # id
-id-modrinth = "id"
-id-curseforge = "id"
+id-modrinth = "HhpEhSql"
+id-curseforge = "998446"
 
 # display
 display-name = "Edgerunner"
