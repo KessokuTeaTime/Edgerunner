@@ -1,3 +1,3 @@
-### Fixes
+### Maintenance Update
 
-- **Fixed** mixin misbehavior causing crashes.
+- **Use** fully semantic versioning.

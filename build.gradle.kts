@@ -1,11 +1,3 @@
-class Display {
-	lateinit var name: String
-	lateinit var loader: String
-	lateinit var version: String
-}
-
-var display: Display = Display()
-
 plugins {
 	base
 	java
@@ -15,12 +7,10 @@ plugins {
 	alias(libs.plugins.modpublisher)
 }
 
-group = libs.versions.maven.group.get()
-version = "${libs.versions.mod.get()}-${libs.versions.loader.get()}${libs.versions.minecraft.get()}"
+val display = libs.versions.display
 
-display.name = libs.versions.display.name.get()
-display.loader = libs.versions.display.loader.get()
-display.version = libs.versions.display.version.get()
+group = libs.versions.maven.group.get()
+version = "${libs.versions.mod.get()}-${libs.versions.loader.get()}.${libs.versions.minecraft.get()}"
 
 base {
 	archivesName.set(libs.versions.archives.name)
@@ -80,7 +70,7 @@ publisher {
 
 	versionType.set("release")
 	projectVersion.set(project.version.toString())
-	gameVersions.set(listOf("23w18a", "1.20", "1.20.1", "1.20.2", "1.20.3", "1.20.4"))
+	gameVersions.set(listOf("23w18a", "1.20", "1.20.1", "1.20.2", "1.20.3", "1.20.4", "1.20.5", "1.20.6", "1.21"))
 	loaders.set(listOf("fabric", "quilt"))
 	curseEnvironment.set("both")
 
