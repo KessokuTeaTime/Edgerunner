@@ -82,7 +82,7 @@ publisher {
 	curseDepends.optional()
 	curseDepends.embedded()
 
-	displayName.set("${display.name} ${libs.versions.mod.get()} for ${display.loader} ${display.version}")
+	displayName.set("${display.name.get()} ${libs.versions.mod.get()} for ${display.loader.get()} ${display.version.get()}")
 
 	artifact.set(tasks.jar)
 	addAdditionalFile(tasks.remapSourcesJar)

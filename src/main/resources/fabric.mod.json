@@ -3,7 +3,7 @@
   "id": "edgerunner",
   "version": "${version}",
 
-  "name": "${display.name}",
+  "name": "${display.name.get()}",
   "description": "Bring the block-edge features back! (MC-1133)",
   "authors": [
     "Kessoku Tea Time",
